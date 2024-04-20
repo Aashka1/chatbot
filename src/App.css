@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: hsl(232, 65%, 14%);
+    background: linear-gradient(90deg, hsl(239, 72%, 13%) 0%, hsla(294, 100%, 55%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsl(232, 69%, 10%) 0%, hsla(294, 100%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsl(227, 65%, 16%) 0%, hsla(294, 100%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center align vertically */
+    color: #090808;
+}
+
+.chat {
+    width: 80vw;
+    margin: 10vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+p.head {
+    text-align: center; /* Center align the header */
+    margin-bottom: 50px; /* Adjusted margin for spacing */
+    font-size: 20px;
+    font-weight: bold;
+}
+.submit {
+    background-color:#ecec;
+    color:#000;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 8px 12px; /* Adjusted padding for the button */
+    margin-left: 10px; /* Added margin between the text and the button */
+}
+
+.search-result {
+    margin-bottom: 20px; /* Adjusted margin for spacing */
+    overflow: auto; /* Use auto to only show scrollbar if needed */
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    border: solid 0.5px #cacaca;
+    border-radius: 6px;
+    box-shadow: rgba(5, 5, 57, 0.15) 0 2px 4px;
+    overflow: hidden;
+    margin-bottom: 20px; /* Adjusted margin for spacing */
+}
+
+.input-container input {
+    border: none;
+    padding: 13px 14px;
+    box-sizing: border-box;
+    font-size: 15px;
+    outline:none;
+    width: 90%;
+    font-weight: 200;
+}
+
+.input-container input::placeholder {
+    color: #cacaca;
+    font-weight: 200;
+}
+
+.input-container button {
+    min-width: 10%;
+    border: none;
+    border-left: 1px solid #cacaca;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor:pointer;
+    background-color:#ecec;
+    color:#000;
+    border-radius: 1px;
+    font-weight: 600;
+}
+
+.input-container button:active {
+    background-color: #e3aeae;
+}
+
+.answer {
+    padding: 13px 14px;
+    border:solid 0.5px #da9e9e;
+    background-color: #c57b7b;
+    margin:5px;
+    font-size: 15px;
+    font-weight: 200;
+    border-radius: 6px;
+}
