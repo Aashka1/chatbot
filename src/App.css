@@ -7,12 +7,11 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 90vh;
     background: hsl(232, 65%, 14%);
     background: linear-gradient(90deg, hsl(239, 72%, 13%) 0%, hsla(294, 100%, 55%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsl(232, 69%, 10%) 0%, hsla(294, 100%, 55%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsl(227, 65%, 16%) 0%, hsla(294, 100%, 55%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
     display: flex;
     justify-content: center;
